@@ -2,12 +2,8 @@
 
 //use std::io::Error;
 
-// extern crate rand;
-
-// use std::io;
-// use rand::Rng;
-
 mod window;
+mod guess;
 
 fn main()
 {
@@ -17,6 +13,8 @@ fn main()
 
     thread::sleep(ten_secs); */
 
-    window::main()
+    guess::main();
+
+    window::main();
 }
 

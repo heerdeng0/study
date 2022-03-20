@@ -110,7 +110,7 @@ fn hide_console_window()
         unsafe
         {
             //창 숨기기
-            user32::ShowWindow (window, 0 as winapi::ctypes::c_int) 
+            user32::ShowWindow(window, 0 as winapi::ctypes::c_int) 
         };
     }
 }
